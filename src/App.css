@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   color: white;
+  text-align: center;
 }
 
 header {
@@ -10,7 +11,45 @@ header {
 }
 
 #solar-system {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  text-align: center;
+}
+
+.missions {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.Mercúrio {
+  width: 20px;
+}
+
+.Vênus {
+  width: 50px;
+}
+
+.Terra {
+  width: 50px;
+}
+
+.Marte {
+  width: 20px;
+}
+
+.Júpiter {
+  width: 300px;
+}
+
+.Saturno {
+  width: 300px;
+}
+
+.Urano {
+  width: 150px
+}
+
+.Netuno {
+  width: 150px;
 }
