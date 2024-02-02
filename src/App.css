@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   color: white;
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
 }
 
@@ -52,4 +53,14 @@ header {
 
 .Netuno {
   width: 150px;
+}
+
+.missionName {
+  font-weight: 800;
+}
+
+.missionCard {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin: 20px;
 }
